@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/snews/.gradle/daemon/7.3.3/tv.snews.souv.app-mergeDebugResources-44:/layout/fragment_second.xml",
+        "source": "/home/snews/.gradle/daemon/7.3.3/tv.snews.souv.app-main-47:/layout/fragment_second.xml"
+    },
+    {
+        "merged": "/home/snews/.gradle/daemon/7.3.3/tv.snews.souv.app-mergeDebugResources-44:/layout/content_main.xml",
+        "source": "/home/snews/.gradle/daemon/7.3.3/tv.snews.souv.app-main-47:/layout/content_main.xml"
+    },
+    {
+        "merged": "/home/snews/.gradle/daemon/7.3.3/tv.snews.souv.app-mergeDebugResources-44:/layout/activity_main.xml",
+        "source": "/home/snews/.gradle/daemon/7.3.3/tv.snews.souv.app-main-47:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/snews/.gradle/daemon/7.3.3/tv.snews.souv.app-mergeDebugResources-44:/layout/fragment_first.xml",
+        "source": "/home/snews/.gradle/daemon/7.3.3/tv.snews.souv.app-main-47:/layout/fragment_first.xml"
+    },
+    {
+        "merged": "tv.snews.souv.app-mergeDebugResources-44:/layout/content_main.xml",
+        "source": "tv.snews.souv.app-main-47:/layout/content_main.xml"
+    }
+]

@@ -1,0 +1,128 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="tv.snews.souv"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:5:5-66
+11-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:6:5-65
+12-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:6:22-62
+13    <uses-permission android:name="android.webkit.PermissionRequest" />
+13-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:7:5-72
+13-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:7:22-69
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:8:5-79
+14-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:9:5-81
+15-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:10:5-79
+16-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:5:5-66
+17-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:5:22-64
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:12:5-71
+18-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:12:22-68
+19
+20    <uses-feature
+20-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:13:5-14:35
+21        android:name="android.hardware.camera"
+21-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:13:19-57
+22        android:required="true" />
+22-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:14:9-32
+23
+24    <application
+24-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:18:5-41:19
+25        android:allowBackup="true"
+25-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:19:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.8.0] /home/snews/.gradle/caches/transforms-3/065dfa018132f0a621878cd66243e674/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+27        android:dataExtractionRules="@xml/data_extraction_rules"
+27-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:22:9-65
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:fullBackupContent="@xml/backup_rules"
+30-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:23:9-54
+31        android:icon="@mipmap/ic_launcher"
+31-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:24:9-43
+32        android:label="@string/app_name"
+32-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:25:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:26:9-54
+34        android:supportsRtl="true"
+34-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:27:9-35
+35        android:testOnly="true"
+36        android:theme="@style/Theme.Souv"
+36-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:28:9-42
+37        android:usesCleartextTraffic="true" >
+37-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:20:9-44
+38        <activity
+38-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:30:9-40:20
+39            android:name="tv.snews.souv.MainActivity"
+39-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:31:13-41
+40            android:exported="true"
+40-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:32:13-36
+41            android:label="@string/app_name"
+41-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:33:13-45
+42            android:theme="@style/Theme.Souv.NoActionBar" >
+42-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:34:13-58
+43            <intent-filter>
+43-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:35:13-39:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:36:17-69
+44-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:36:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:38:17-77
+46-->/home/snews/AndroidStudioProjects/souv2/app/src/main/AndroidManifest.xml:38:27-74
+47            </intent-filter>
+48        </activity>
+49
+50        <uses-library
+50-->[androidx.window:window:1.0.0] /home/snews/.gradle/caches/transforms-3/0f3eca9512f0eb9502afcb0282c13bf3/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+51            android:name="androidx.window.extensions"
+51-->[androidx.window:window:1.0.0] /home/snews/.gradle/caches/transforms-3/0f3eca9512f0eb9502afcb0282c13bf3/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+52            android:required="false" />
+52-->[androidx.window:window:1.0.0] /home/snews/.gradle/caches/transforms-3/0f3eca9512f0eb9502afcb0282c13bf3/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+53        <uses-library
+53-->[androidx.window:window:1.0.0] /home/snews/.gradle/caches/transforms-3/0f3eca9512f0eb9502afcb0282c13bf3/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+54            android:name="androidx.window.sidecar"
+54-->[androidx.window:window:1.0.0] /home/snews/.gradle/caches/transforms-3/0f3eca9512f0eb9502afcb0282c13bf3/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+55            android:required="false" />
+55-->[androidx.window:window:1.0.0] /home/snews/.gradle/caches/transforms-3/0f3eca9512f0eb9502afcb0282c13bf3/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+56
+57        <provider
+57-->[androidx.emoji2:emoji2:1.0.0] /home/snews/.gradle/caches/transforms-3/46f78acda5fcb3a1d65440954eeb5b73/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+58            android:name="androidx.startup.InitializationProvider"
+58-->[androidx.emoji2:emoji2:1.0.0] /home/snews/.gradle/caches/transforms-3/46f78acda5fcb3a1d65440954eeb5b73/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+59            android:authorities="tv.snews.souv.androidx-startup"
+59-->[androidx.emoji2:emoji2:1.0.0] /home/snews/.gradle/caches/transforms-3/46f78acda5fcb3a1d65440954eeb5b73/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+60            android:exported="false" >
+60-->[androidx.emoji2:emoji2:1.0.0] /home/snews/.gradle/caches/transforms-3/46f78acda5fcb3a1d65440954eeb5b73/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+61            <meta-data
+61-->[androidx.emoji2:emoji2:1.0.0] /home/snews/.gradle/caches/transforms-3/46f78acda5fcb3a1d65440954eeb5b73/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+62-->[androidx.emoji2:emoji2:1.0.0] /home/snews/.gradle/caches/transforms-3/46f78acda5fcb3a1d65440954eeb5b73/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+63                android:value="androidx.startup" />
+63-->[androidx.emoji2:emoji2:1.0.0] /home/snews/.gradle/caches/transforms-3/46f78acda5fcb3a1d65440954eeb5b73/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+64            <meta-data
+64-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/snews/.gradle/caches/transforms-3/cb5baf6f6cd3c337c16cbd482c02d812/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/snews/.gradle/caches/transforms-3/cb5baf6f6cd3c337c16cbd482c02d812/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+66                android:value="androidx.startup" />
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/snews/.gradle/caches/transforms-3/cb5baf6f6cd3c337c16cbd482c02d812/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+67        </provider>
+68    </application>
+69
+70</manifest>
